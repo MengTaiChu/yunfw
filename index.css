@@ -1,0 +1,13 @@
+*,body{
+    padding: 0;
+    margin: 0;
+}
+
+img{
+    max-width: 100%; /* 图片的最大宽度 */
+    max-height: 100%; /* 图片的最大高度 */
+    position: absolute; /* 设置为absolute */
+    top: 50%; /* 将图片向上移动50% */
+    left: 50%; /* 将图片向左移动50% */
+    transform: translate(-50%, -50%); /* 将图片向上和向左移动其一半的大小 */
+}
